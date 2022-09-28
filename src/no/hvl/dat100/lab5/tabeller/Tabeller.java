@@ -112,15 +112,15 @@ public class Tabeller {
 	// f)
 	public static int[] reverser(int[] tabell) {
 
-		int[] nyTab = new int [tabell.length];
-	    int j = tabell.length;
+		int[] nyTab = new int[tabell.length];
+		int j = tabell.length;
 
-	    for (int i : tabell) {
-	        j--;
-	        nyTab[j] = i;
-	        }
-	    
-	    return nyTab;
+		for (int i : tabell) {
+			j--;
+			nyTab[j] = i;
+		}
+
+		return nyTab;
 	}
 
 	// g)
